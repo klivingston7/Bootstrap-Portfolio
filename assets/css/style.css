@@ -1,0 +1,188 @@
+/*  NAV BAR  */
+
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+
+nav.navbar {
+    padding: 0;
+}
+
+div.container { 
+    padding:0;
+}
+
+h1 {
+    display: inline-block;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    padding: 22px;
+}
+
+h1.name {
+    margin: 0;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0px 10px 0px;
+}
+
+ul.m-nav {
+    float: right;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    margin: 0;
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    color: #cccccc;
+}
+
+a:hover {
+    color:  #4aaaa5;
+    text-decoration: none;
+}
+
+#pfT {
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    padding: 0 14px;
+    margin: 0 14px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #666666;
+    border-top: 4px solid #4aaaa5;
+    padding-top: 22px;
+    color: white;
+    font-size: 10px;
+}
+
+
+/*  contact  */
+
+
+.row {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #777777;
+    clear: both;
+    overflow: auto;
+    border: 2px solid #cccccc;
+    box-sizing: content-box;
+    padding: 0 10px 0 10px;
+    padding-top: 0px;
+    margin: 40px 10px 0 10px;
+}
+
+h2 {
+    float: left;
+    width: 100%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #dddddd;
+}
+.col-sm-12 {
+    padding: 0 10px 0 10px;
+}
+div.form-group {
+    width: 100%;
+}
+
+div.form-text {
+    width: 100%
+}
+
+label.control-label.col-sm-12 {
+    padding: 0;
+}
+
+#fname, #email, #message {
+    padding: 0;
+}
+
+#Fname, #Email {
+    width: 100%;
+    line-height: 28px;
+    font-size: 13px;
+    text-indent: 6px;
+    cursor: text;
+}
+
+#Message {
+    width: 100%;
+    border: 1px solid #dddddd;
+    font-size: 13px;
+    text-indent: 6px;
+}
+
+#Button {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    resize: vertical;
+    cursor: pointer;
+}
+
+#Button:hover{
+    background-color: #45a049;
+}
+
+/*   INDEX   */
+
+img {
+    float:left;
+    height: 160px;
+    width: 150px;
+    margin: 10px 20px 1px 15px;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-right: 15px;
+    padding-left: 15px;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+
+/*   PORTFOLIO   */
+
+.column {
+    float: left;
+    padding: 0 0 10px 0;
+    position:relative;
+    text-align:center;
+}
+
+.image:hover {
+    opacity: 0.3;
+}
+
+img.image {
+    z-index: 0;
+    padding: 0 10px;
+}
