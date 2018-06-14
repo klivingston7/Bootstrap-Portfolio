@@ -1,11 +1,17 @@
 /*  NAV BAR  */
 
+body {
+    /* change margin-top in @media */
+    margin-top: 104px;
+    margin-bottom: 70px;
+}
+
 .navbar {
     background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
 }
 
-nav.navbar {
+nav.navbar.fixed-top {
     padding: 0;
 }
 
@@ -63,8 +69,6 @@ a:hover {
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
     width: 100%;
     text-align: center;
     background-color: #666666;
@@ -79,7 +83,6 @@ footer {
 
 
 .row {
-    box-sizing: border-box;
     background-color: #ffffff;
     color: #777777;
     clear: both;
@@ -88,8 +91,9 @@ footer {
     box-sizing: content-box;
     padding: 0 10px 0 10px;
     padding-top: 0px;
-    margin: 40px 10px 0 10px;
+    margin: 0 10px 0 10px;
 }
+
 
 h2 {
     float: left;
@@ -103,9 +107,11 @@ h2 {
     padding-bottom: 15px;
     border-bottom: 2px solid #dddddd;
 }
+
 .col-sm-12 {
     padding: 0 10px 0 10px;
 }
+
 div.form-group {
     width: 100%;
 }
@@ -135,6 +141,11 @@ label.control-label.col-sm-12 {
     border: 1px solid #dddddd;
     font-size: 13px;
     text-indent: 6px;
+}
+
+textarea#Message{
+    height: 200px;
+
 }
 
 #Button {
@@ -171,11 +182,17 @@ p {
 
 /*   PORTFOLIO   */
 
-.column {
-    float: left;
-    padding: 0 0 10px 0;
-    position:relative;
-    text-align:center;
+
+#rowPort {
+    background-color: #ffffff;
+    color: #777777;
+    clear: both;
+    overflow: auto;
+    border: 2px solid #cccccc;
+    box-sizing: content-box;
+    padding: 0 10px 20px 10px;
+    padding-top: 0px;
+    margin: 0 10px 0 10px;
 }
 
 .image:hover {
@@ -185,4 +202,108 @@ p {
 img.image {
     z-index: 0;
     padding: 0 10px;
+}
+
+.imageR {
+    border: none;
+    
+}
+
+.thumbnail{
+    position:relative;
+}
+
+.post-content {
+    position: absolute; 
+    z-index: 2; 
+    color: #ffffff; 
+    padding: 5px 0;
+    top: 55%;
+    left: 25px;
+    width: 150px;
+    text-align: center;
+    background: #4aaaa5
+}
+
+.imagePort {     
+    height: 160px;
+    width: 150px;
+    margin: 10px 15px 1px 15px;
+    
+}
+
+
+@media screen and (max-width:768px) {
+
+/* Portfolio */
+
+#noMargin {
+   display: flex;
+   flex-wrap: nowrap;
+
+}
+
+#pfT {
+    padding: 0 7px;
+    margin: 0 7px;
+}
+
+}
+
+@media screen and (max-width:640px) {
+
+/* Portfolio */
+
+body {
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+
+nav.navbar.fixed-top {
+    position: static;
+    margin-bottom: 25px;
+    justify-content: center;
+
+}
+
+#noMargin {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+
+ }
+
+.col1 {
+    width: 100%;
+    text-align: center;
+    background-color: #4aaaa5;
+}
+
+.col2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+/* Contact */
+
+img{
+    display: block;
+    float: none;
+    height: 300px;
+    width: auto;
+    margin: 15px auto 15px auto
+
+}
+
+/* Contact */
+
+textarea#Message{
+    height: 125px;
+
+}
+
 }
