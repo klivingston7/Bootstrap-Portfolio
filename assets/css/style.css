@@ -214,22 +214,27 @@ img.image {
 }
 
 .post-content {
-    position: absolute; 
-    z-index: 2; 
-    color: #ffffff; 
+    position: absolute;
+    z-index: 2;
+    color: #ffffff;
     padding: 5px 0;
-    top: 55%;
+    top: 63%;
     left: 25px;
-    width: 150px;
+    width: 300px;
     text-align: center;
-    background: #4aaaa5
+    background: #4aaaa5;
 }
 
 .imagePort {     
-    height: 160px;
-    width: 150px;
-    margin: 10px 15px 1px 15px;
+    height: auto;
+    width: 300px;
+    margin: 25px 15px 20px 15px;
     
+}
+
+.thumbnail:hover { 
+    border: 2px solid #4aaaa5;
+
 }
 
 
