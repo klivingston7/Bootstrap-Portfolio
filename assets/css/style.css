@@ -73,9 +73,15 @@ footer {
     text-align: center;
     background-color: #666666;
     border-top: 4px solid #4aaaa5;
-    padding-top: 22px;
+    padding-top: 10px;
+    padding-bottom: 5px;
     color: white;
     font-size: 10px;
+}
+
+p4, p5 {
+    margin: 5px;
+    width: 100%;
 }
 
 
