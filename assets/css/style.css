@@ -205,19 +205,13 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
-    .mainH2 {
-        font-size: 17px;
+    h1 {
+        font-style: oblique;
     }
-    .mainImg {
-        max-width: 400px
+    #kl-H1 {
+        font-style: oblique;
     }
-    #matchImg {
-        width: 300px;
-    }
-  }
 
-@media screen and (max-width: 600px) {
-    
     .product-title {
         font-size: 1rem !important;
         font-weight: 600;
@@ -229,13 +223,71 @@ footer {
     
     #productPic {
         float: right !important;
-        width: 95px;
-        margin-top: -28px;
+        width: 117px;
+        margin-top: -10px;
         margin-bottom: 15px;
-        
+        height: 94px;
     }
     .mainH2 {
         font-size: 15px;
+        font-style: oblique;
+    }
+    .mainImg {
+        max-width: 300px;
+    }
+    #matchImg {
+        width: 200px;
+    }
+    .headLink {
+        font-size: 11px;
+    }
+    #contact {
+        font-size: 11px;
+    }
+    .cart {
+        font-size: 11px;
+    }
+    .carCap{
+        font-size: .9rem;
+    }
+    .cartImg {
+       max-height: 23px;
+    }
+    h1{
+        font-size: 1.8rem;
+    }
+    .carousel-caption {
+        padding-bottom: 15px;
+    }
+  }
+@media screen and (max-width: 600px) {
+
+    h1 {
+        font-style: oblique;
+    }
+    #kl-H1 {
+        font-style: oblique;
+    }
+
+    .product-title {
+        font-size: 1rem !important;
+        font-weight: 600;
+    }
+    .tile-title {
+        font-size: .8rem !important;
+        font-weight: 200 !important;
+    }
+    
+    #productPic {
+        float: right !important;
+        width: 117px;
+        margin-top: -10px;
+        margin-bottom: 15px;
+        height: 94px;
+    }
+    .mainH2 {
+        font-size: 15px;
+        font-style: oblique;
     }
     .mainImg {
         max-width: 300px;
